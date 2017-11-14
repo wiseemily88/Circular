@@ -1,7 +1,15 @@
 .campaign-page-name {
-  font-size: 1.5em;
+  font-family: Roboto, Oswald;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: $mainwhite;
+
 }
 
 .campaign-page-address {
-  font-size: 1em;
+  margin: 0.5em 0;
+  font-family: Roboto, Oswald;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: $mainwhite;
 }
