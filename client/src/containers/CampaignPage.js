@@ -17,7 +17,8 @@ class CampaignPage extends Component {
   render() {
     const { activeCampaign: { loading, loaded, campaign } } = this.props;
     return (
-      <div className="app-container">
+      <div className="row">           
+      <div className="column">
         {campaign &&
           campaign.address && (
             <div>
@@ -32,7 +33,11 @@ class CampaignPage extends Component {
             </div>
           )}
         <SignCampaign signatureObj={this.props.signature} />
-        <SignatureList signatures={this.props.signature.signatures} />
+        <SignatureList signatures={this.props.signature.signatures} />    
+      </div>
+      <div className="column">
+      map here
+      </div>
       </div>
     );
   }

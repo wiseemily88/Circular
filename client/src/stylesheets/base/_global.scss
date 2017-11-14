@@ -16,7 +16,19 @@ body {
 }
 
 .app-container {
-  width: 90%;
-  margin: auto;
+  width: 50%;
+  margin-left: 2cm;
   max-width: 1170px;
+}
+
+.column{
+	float: left;
+	margin-left: 2cm;
+	width: 70%; 
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
 }
