@@ -1,6 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
+class ModalWrapper extends Component {
+  constructor(props) {
+    super(props);
+  }
+}
+
 const ModalWrapper = ({ children, title }) => (
   <div className="circular-modal-wrapper">
     <div className="circular-modal">

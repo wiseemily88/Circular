@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import GoogleButton from 'react-google-button';
 import { addSignatureToCampaign } from '../redux/actions/signature';
+import TermsOfAgreement from '../components/TermsOfAgreement';
 
 class SignCampaign extends Component {
   renderError() {
@@ -52,6 +53,7 @@ class SignCampaign extends Component {
           <div>Sign with:</div>
         </div>
         <div>{this.renderContent()}</div>
+        <TermsOfAgreement/>
       </div>
     );
   }
