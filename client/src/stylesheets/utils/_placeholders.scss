@@ -1,6 +1,6 @@
 %btn_primary {
-  background-color: $maingreen;
-  color: $mainwhite;
+  background-color: $main-green;
+  color: $main-white;
   border-radius: 0;
   border: none;
   font-size: 1em;
@@ -8,6 +8,6 @@
   border-radius: 2px;
   &:hover{
     cursor: pointer;
-    background-color: $hovergreen;
+    background-color: $hover-green;
   }
 }

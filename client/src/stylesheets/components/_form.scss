@@ -6,7 +6,7 @@
     display: block;
     font-weight: 500;
     margin-bottom: .5rem;
-    color: $mainwhite;
+    color: $main-white;
   }
   .form-control {
     padding: .5rem;
@@ -17,7 +17,7 @@
     color: $secondary-color;
     &:focus {
       outline: none;
-      border-color: $maingreen;
+      border-color: $main-green;
     }
   }
 }

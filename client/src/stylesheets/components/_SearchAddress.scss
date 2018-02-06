@@ -1,6 +1,6 @@
 .searchAddress {
 		height: 100%;
-    background-color: rgba($maingreen, 0.75);
+    background-color: rgba($main-green, 0.75);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -10,7 +10,7 @@
 }
 
 .searchAddress-heading {
-    color: $mainwhite;
+    color: $main-white;
 		font-family: 'Fira Sans Condensed', sans-serif;
 		margin: 0.5em 0;
 		text-align: center;
@@ -19,7 +19,7 @@
     font-weight: 600;
 }
 .searchAddress_sub_heading {   
-		color: $mainwhite;
+		color: $main-white;
 		font-family: 'Fira Sans Condensed', sans-serif;
 		text-align: center;
 		margin-bottom: 1em;
@@ -41,15 +41,15 @@
 }
 
 .searchAddress-button {
-    background-color: $maingreen;
-    color: $mainwhite;
+    background-color: $main-green;
+    color: $main-white;
     text-decoration: none;
     padding: .5rem .75rem;   
-    border: 2px solid $maingreen;
+    border: 2px solid $main-green;
 }
 
 .searchAddress-link {
-    color: $mainwhite;
+    color: $main-white;
 		cursor: pointer;
 		font-family: 'Fira Sans Condensed', sans-serif;
 		font-size: 1em;
